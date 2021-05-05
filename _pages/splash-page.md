@@ -1,67 +1,49 @@
 ---
-title: "Splash Page"
+title: "OWGRE"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  actions:
-    - label: "Learn More"
-      url: "/terms/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/windy.png
+excerpt: "Optimized weather-related green energy production and consumption"
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'As the energy system is becoming more complex and weather-dependent, weather forecasts are of essential importance for transforming the energy landscape towards decarbonization. In this project, we combine probabilistic numerical weather prediction with machine learning algorithms in order to provide optimized decision-support for green energy production and consumption.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Probabilistic forecasting"
+    excerpt: "Improve probabilistic short-range weather forecasts for the energy system."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    title: "Optimized energy systems"
+    excerpt: "Optimize forecasts for energy systems and increase energy efficiency with data-driven machine-learning algorithms."
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Data format standardisation"
+    excerpt: "Create standardized data format and tools for data exchange and digital platforms."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: assets/images/probabilistic.png
+    title: "Probabilistic forecasting"
+    excerpt: "Improve probabilistic short-range weather forecasts for the energy system."
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: /assets/images/40031.png
+    title: "Optimized energy systems"
+    excerpt: "Optimize forecasts for energy systems and increase energy efficiency with data-driven machine-learning algorithms."
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: /assets/images/data.png
+    title: "Data format standardisation"
+    excerpt: "Create standardized data format and tools for data exchange and digital platforms."
+feature_row5:
+  - image_path: /assets/images/business.png
+    title: "New business models and value chains"
+    excerpt: "Exploit the new value chain in the transnational market"
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="feature_row5" type="right" %}

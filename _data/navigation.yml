@@ -2,12 +2,6 @@
 main:
   - title: "Home"
     url: /
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
 
 # sidebar navigation list sample
 sidebar-sample:
